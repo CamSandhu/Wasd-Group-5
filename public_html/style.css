@@ -1,0 +1,357 @@
+a{
+    text-decoration: none;
+    color:white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    -webkit-transition: color 1s; /* Safari */
+    transition: color 1s;
+/*    box-shadow:0 0 20px #1785ff;*/
+}
+#bottle{
+    max-height: 500px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav{
+    margin-top: 10px;
+}
+ul{
+    list-style: none;
+    float: left;
+    font-family: 'Hydrophilia Iced';
+}
+#logo{
+    max-height: 60px;
+    position: absolute;
+    left: 44%;
+}
+li{
+    display: inline-block;
+}
+body{
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /*    background-image: url(resorces/back2.png);*/
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+}
+
+footer{
+    background-color: rgba(0,0,0,0.1);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+
+}
+#navbar{
+    width:100%;
+    position: fixed;
+}
+h1{
+    color: #3399ff;
+    font-family: "Hydrophilia Iced";
+    font-size: 35px;
+    margin: 0;
+    padding:0;
+    text-shadow: 2px 2px 5px #3399ff;
+    text-align: center;
+    background-color: #1785ff;
+    margin: 0;
+    color: white;
+    border-radius: 10px 10px 0 0;
+    padding: 10px;
+}
+
+#foot-content{
+    width: 900px;
+    margin: auto;
+    color: white;
+}
+
+a:hover{
+    color: #1785ff;
+}
+
+#login-signup{
+    float: right;
+    margin-right: 30px;
+}
+#login-signup a{
+    padding: 10px 20px;
+    border:1px solid #1785ff;
+    border-radius:50px;
+    transition: background-color 0.7s;
+    margin-right: 5px;
+}
+
+#login-signup a:hover {
+    background-color:#1785ff;
+    color:white;
+}
+.box{
+    margin-top: 90px;
+    font-size: 20px;
+    transition: background-color 0.7s;
+    justify-self:center;
+    color: white;
+    border: 1px solid #1785ff;
+    border-radius: 15px 15px 0 0;
+    width: 50%;
+    box-shadow:0 0 20px #1785ff;
+}
+
+.boxproduct{
+    display:inline-block;    
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 70px;
+
+}
+#logobaggrund{
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: -100px;
+
+}
+h3{
+    background: #1785ff;
+    text-align:left;
+    margin: 0;
+    text-decoration: none;
+    padding: 4px;
+    border-radius: 5px 5px 0 0;
+}
+
+#heading{
+    max-width: 100%;
+    text-align: center;
+    margin: auto auto;
+}
+#foot-content{
+    padding-top: 10px;
+}
+#heading p{
+    font-size: 40px;
+    max-width: 50%;
+    margin: auto auto;
+}
+@media only screen and (max-width: 664px){
+    
+    #logo{
+        display: none;
+    }
+    #navbar{
+        text-align: center;
+        background: none;
+    }
+    #icon-bar{
+        display: none;
+    }
+    #main-heading{
+        margin: auto auto;
+        margin-top: 30px;
+    }
+    .topnav .icon{
+        display: block;
+
+    }
+    #navbar1 li{
+        display: block;
+        padding: 10px 10px;
+        background-color: #1785ff;
+        margin-bottom: 10px;
+    }
+
+
+
+    #navbar1{
+        margin-top: 10px;
+        margin:  auto auto;
+        width: 100%;
+    }
+    .hideit{
+        display: none;
+    }
+    nav {
+        text-align: center;
+    }
+    #heading{
+        max-width: 100%;
+        align-content: center;
+    }
+    .box{
+        margin: auto auto;
+
+    }
+
+    #clearfix{
+        max-width: 100%;
+    }
+
+    #envelope{
+        margin-top: 200px;
+    }
+    #navbar{
+        position: absolute;
+        top: 0;
+
+    }
+
+
+    #navbar1 a{
+        transition: letter-spacing 0.7s;
+    }
+    #navbar1 a:hover{
+        color: white;
+        letter-spacing: 2px;
+    }
+
+}
+
+input{ 
+    padding: 10px;
+    border: none;
+    outline: none;
+
+}
+.contactbox{
+    text-align: left;
+}
+
+#flex div{
+    padding: 0 40px 0 40px;
+}
+
+#country{
+    width: 30%;
+}
+
+#cell{
+    width: 55%;
+    /*    right: 0;*/
+    float: right;
+    /*    margin-right: 0;*/
+    /*    display: inline-block;*/
+}
+
+button{
+    /*    margin: 0 auto; 
+        margin-top: 10px;*/
+    padding: 10px 20px;
+    border-radius: 50px;
+    background: none;
+    color:white;
+    border: 1px solid #1785ff;
+    font-size: 20px;
+    transition: background-color 0.7s;
+    font-family: "Hydrophilia Iced";
+    box-shadow:0 0 20px #1785ff;
+}
+p{
+    line-height: 1.6;
+}
+img{
+    float: left;
+}
+.grid{
+    display: grid;
+    grid-template-columns:auto;
+}
+.topnav .icon{
+    display: none;
+}
+#main-heading{
+    color: white;
+    justify-self: center;
+    margin-top: 100px;
+}
+#main-heading h2{
+    font-size: 70px;
+    margin-bottom: 0;
+}
+#main-heading h4{
+    font-size: 45px;
+    /*    color:rgba(23,133,255,0.5);*/
+    margin: auto;
+    text-align: center;
+}
+#icon-bar a{
+    display: block;
+    font-size: 25px;
+}
+
+#icon-bar{
+    position: fixed;
+    top:40%;
+}
+#buttons a{
+    padding: 10px 30px;
+    border:1px solid #1785ff;
+    border-radius:50px;
+    transition: background-color 0.7s;
+    margin-right: 5px;
+    font-size: 20px;
+}
+#buttons{
+    text-align: center;
+    margin-top:  20px;
+    color: white;
+}
+#buttons a:hover{
+    background-color: #1785ff;
+    color: white;
+}
+a:active{
+    color:#1785ff; 
+}
+.grid a{
+    display: grid;
+    grid-template-column:auto auto;
+    justify-items:center;
+}
+
+
+button:hover{
+    background-color: #1785ff;
+    outline: none;
+}
+.button-p{
+    text-align:center; 
+}
+
+.active{
+    color: #1785ff;
+}
+.responsive{
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*.contact div{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}*/
+.contact input,textarea,.contact label{
+    width: 60%;
+    margin-bottom: 20px;
+}
+.contact{
+    margin-top: 30px;
+}
+label{
+    display: block;
+    margin-bottom: 30px;
+    width: 100px;
+    float: left;
+}
+.contact ul {
+    width: 100px;
+}
+
+

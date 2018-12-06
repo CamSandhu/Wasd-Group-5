@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>WASD</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <!--        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body style="background-image: url(resorces/BGver.1.png)">
+        <section id="envelope">
+            <section id="navbar" >
+                            <img id="logo" src="resorces/logologo.png" alt="logo">
+                <nav>
+                    <ul id="navbar1">
+                        <li><a href="index.html" onclick="activenow()">HOME</a></li>
+                        <li><a href="about.html" onclick="activenow()">ABOUT</a></li>
+                        <li><a href="product.html" onclick=myfun();>PRODUCT</a></li>
+                        <li><a href="contact.html" onclick=myfun();>CONTACT</a></li>
+                    </ul>
+                    <ul id="login-signup" class="topnav">
+                        <li><a href="login.html" target="_blank" class="hideit">LOGIN</a></li>
+                        <li><a href="signup.html" target="_blank" class="hideit">SIGNUP</a></li>
+                        <li><a href="javascript:void(0);" class="icon" onclick="hide();"><i class="fa fa-bars"></i></a></li>
+                    </ul>
+                </nav>
+            </section>
+            <div class="grid ">
+                <section id="main-heading" style="text-align: center;">
+<!--                    <h2>GAME OVER </h2>
+                    <h4>CONTINUE?</h4>-->
+                    <section id="buttons">
+                        <p class="button-p" style="margin-top: 350px">
+                            <button href="">LOGIN</button>
+                            <button onclick="window.location.href='signup.html'">SIGNUP</button>
+                        </p>
+                    </section>
+                </section>
+            </div>
+            <div id="icon-bar">
+                <a><i class="fa fa-facebook"></i></a>
+                <a><i class="fa fa-twitter"></i></a>
+                <a><i class="fa fa-google"></i></a>
+                <a><i class="fa fa-pinterest"></i></a>
+                <a><i class="fa fa-instagram"></i></a>
+
+            </div>
+
+        </section>
+        <script>
+            window.onscroll = function () {
+                document.getElementById('navbar').style.position = 'fixed';
+            };
+            function activenow(){
+                this.style.color="red";
+                var i=3;
+                var x = document.getElementById('navbar1');
+                var y= x.getElementsByTagName('a');
+                for (i = 0; i < 4; i++) {
+                   y[i].style.color='red';
+                }
+            }
+        </script>
+    </body>
+</html>
